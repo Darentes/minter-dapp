@@ -7,24 +7,215 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Mynies";
+const description = "We want to be the cutest collection in the blockchain and we want to find our friends.🍬 -Mynies is a hand-drawn collection with 10.000 unique collectibles.-";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 7000,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Background effect" },
+      { name: "Body" },
+      { name: "Outfit" },
+      { name: "Face" },
+      { name: "Mask" },
+      { name: "Hair" },
+      { name: "Head" },
+      { name: "Hand" },
     ],
-  },
+  },{   
+    growEditionSizeTo: 8000,
+   layersOrder: [
+     { name: "Background" },
+     { name: "Background effect" },
+     { name: "Body" },
+     { name: "Outfit" },
+     { name: "Face" },
+     { name: "Hair" },
+     { name: "Hand" },
+   ],
+ },{
+  growEditionSizeTo: 9987,
+  layersOrder: [
+    { name: "Background" },
+    { name: "Background effect" },
+    { name: "Body" },
+    { name: "Outfit" },
+    { name: "Face" },
+    { name: "Hair" },
+    { name: "Head" },
+    { name: "Hand" },
+  ],
+},{
+  growEditionSizeTo: 9988,
+  layersOrder: [
+    { name: "Background 39" },
+    { name: "Background effect 39" },
+    { name: "Body 39" },
+    { name: "Outfit 39" },
+    { name: "Face 39" },
+    { name: "Mask 39" },
+    { name: "Hair 39" },
+    { name: "Head 39" },
+    { name: "Hand 39" },
+  ],
+},{
+  growEditionSizeTo: 9989,
+  layersOrder: [
+    { name: "Background Astro" },
+    { name: "Background effect Astro" },
+    { name: "Body Astro" },
+    { name: "Outfit Astro" },
+    { name: "Face Astro" },
+    { name: "Hair Astro" },
+    { name: "Hand Astro" },
+  ],
+},{
+  growEditionSizeTo: 9990,
+  layersOrder: [
+    { name: "Background Candy" },
+    { name: "Background effect Candy" },
+    { name: "Body Candy" },
+    { name: "Outfit Candy" },
+    { name: "Face Candy" },
+    { name: "Mask Candy" },
+    { name: "Hair Candy" },
+    { name: "Head Candy" },
+    { name: "Hand Candy" },
+  ],
+},{
+  growEditionSizeTo: 9991,
+  layersOrder: [
+    { name: "Background Cookie" },
+    { name: "Background effect Cookie" },
+    { name: "Body Cookie" },
+    { name: "Outfit Cookie" },
+    { name: "Face Cookie" },
+    { name: "Mask Cookie" },
+    { name: "Hair Cookie" },
+    { name: "Hand Cookie" },
+  ],
+},{
+  growEditionSizeTo: 9992,
+  layersOrder: [
+    { name: "Background Cute" },
+    { name: "Background effect Cute" },
+    { name: "Body Cute" },
+    { name: "Outfit Cute" },
+    { name: "Face Cute" },
+    { name: "Mask Cute" },
+    { name: "Hair Cute" },
+    { name: "Head Cute" },
+    { name: "Hand Cute" },
+  ],
+},{
+  growEditionSizeTo: 9993,
+  layersOrder: [
+    { name: "Background Cute Devil" },
+    { name: "Background effect Cute Devil" },
+    { name: "Body Cute Devil" },
+    { name: "Outfit Cute Devil" },
+    { name: "Face Cute Devil" },
+    { name: "Mask Cute Devil" },
+    { name: "Hair Cute Devil" },
+    { name: "Head Cute Devil" },
+    { name: "Hand Cute Devil" },
+  ],
+},{
+  growEditionSizeTo: 9994,
+  layersOrder: [
+    { name: "Background Cute Paw" },
+    { name: "Background effect Cute Paw" },
+    { name: "Body Cute Paw" },
+    { name: "Outfit Cute Paw" },
+    { name: "Face Cute Paw" },
+    { name: "Mask Cute Paw" },
+    { name: "Hair Cute Paw" },
+    { name: "Head Cute Paw" },
+    { name: "Hand Cute Paw" },
+  ],
+},{
+  growEditionSizeTo: 9995,
+  layersOrder: [
+    { name: "Background Kimono Boy" },
+    { name: "Background effect Kimono Boy" },
+    { name: "Body Kimono Boy" },
+    { name: "Outfit Kimono Boy" },
+    { name: "Face Kimono Boy" },
+    { name: "Mask Kimono Boy" },
+    { name: "Hair Kimono Boy" },
+    { name: "Head Kimono Boy" },
+    { name: "Hand Kimono Boy" },
+  ],
+},{
+  growEditionSizeTo: 9996,
+  layersOrder: [
+    { name: "Background Kimono Girl" },
+    { name: "Background effect Kimono Girl" },
+    { name: "Body Kimono Girl" },
+    { name: "Outfit Kimono Girl" },
+    { name: "Face Kimono Girl" },
+    { name: "Mask Kimono Girl" },
+    { name: "Hair Kimono Girl" },
+    { name: "Head Kimono Girl" },
+    { name: "Hand Kimono Girl" },
+  ],
+},{
+  growEditionSizeTo: 9997,
+  layersOrder: [
+    { name: "Background Megu" },
+    { name: "Background effect Megu" },
+    { name: "Body Megu" },
+    { name: "Outfit Megu" },
+    { name: "Face Megu" },
+    { name: "Mask Megu" },
+    { name: "Hair Megu" },
+    { name: "Head Megu" },
+    { name: "Hand Megu" },
+  ],
+},{
+  growEditionSizeTo: 9998,
+  layersOrder: [
+    { name: "Background Purple" },
+    { name: "Background effect Purple" },
+    { name: "Body Purple" },
+    { name: "Outfit Purple" },
+    { name: "Face Purple" },
+    { name: "Mask Purple" },
+    { name: "Hair Purple" },
+    { name: "Head Purple" },
+    { name: "Hand Purple" },
+  ],
+},{
+  growEditionSizeTo: 9999,
+  layersOrder: [
+    { name: "Background Tuxedo" },
+    { name: "Background effect Tuxedo" },
+    { name: "Body Tuxedo" },
+    { name: "Outfit Tuxedo" },
+    { name: "Face Tuxedo" },
+    { name: "Mask Tuxedo" },
+    { name: "Hair Tuxedo" },
+    { name: "Head Tuxedo" },
+    { name: "Hand Tuxedo" },
+  ],
+},{
+  growEditionSizeTo: 10000,
+  layersOrder: [
+    { name: "Background Vamp" },
+    { name: "Background effect Vamp" },
+    { name: "Body Vamp" },
+    { name: "Outfit Vamp" },
+    { name: "Face Vamp" },
+    { name: "Mask Vamp" },
+    { name: "Hair Vamp" },
+    { name: "Head Vamp" },
+    { name: "Hand Vamp" },
+  ],
+},
 ];
 
 const shuffleLayerConfigurations = true;
@@ -32,13 +223,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1500,
+  height: 1500,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://mynies.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,34 +240,34 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CRYPTOPUNKS';
-const CONTRACT_SYMBOL = 'CP';
+const CONTRACT_NAME = 'Mynies';
+const CONTRACT_SYMBOL = 'MYS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const OWNER_ADDRESS = '0xb9cc8b48E13a68C26C52c619433Ca2a90dd08a0A';
+const TREASURY_ADDRESS = '0xb9cc8b48E13a68C26C52c619433Ca2a90dd08a0A';
+const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-05-15T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xb9cc8b48E13a68C26C52c619433Ca2a90dd08a0A"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = ""; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Which one you will get? >.<"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io//ipfs/QmPQfRKM9wmUmJd7U5HKe2vzzUcBJLdMQMWNtWYgZtdg7q?filename=Mynies%20Mint.png"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -93,12 +284,12 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "MY",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://twitter.com/Mynies_Official",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0xb9cc8b48E13a68C26C52c619433Ca2a90dd08a0A",
       share: 100,
     },
   ],
