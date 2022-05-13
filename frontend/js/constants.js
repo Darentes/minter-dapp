@@ -1,5 +1,5 @@
 const contractAddress = "0x4044b48ed66F47Cf7855a77C852B8CaeB20d7f72"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Mynies NFT Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
